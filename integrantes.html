@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Fifth Harmony</title>
+	
+	<style>
+		body {
+			margin:0;
+			background-color: azure;
+		}
+	
+		#menu ul {
+			margin:0; 
+			padding: 40px; 
+			background-color: #00ace6; 
+			text-align: center; 
+			font-family: rockwell;
+		}
+	
+		#menu ul li {
+			display: inline;
+		}
+	
+		#menu ul li a {
+			color: black; 
+			text-decoration: none; 
+			padding: 40px;
+			transition: background .5s;
+		}
+	
+		#menu ul li a:hover{
+			background-color: darkslategray;
+		}
+	
+	</style>
+	
+	<script type="text/JavaScript">
+	
+		function ally() {
+			document.getElementById("ally").src = 'img/allyb.jpg';
+		}
+	
+		function brooke() {
+			document.getElementById("ally").src = 'img/ally.jpg';
+		}
+		
+		function dinah() { 
+			document.getElementById("dinah").src = 'img/dinahj.jpg';
+		}
+	
+		function jane () {
+			document.getElementById("dinah").src = 'img/dinah.jpg';
+		}
+		
+		function lauren() { 
+			document.getElementById("lauren").src = 'img/laurenj.jpg';
+		}
+	
+		function jauregui () {
+			document.getElementById("lauren").src = 'img/lauren.jpg';
+		}
+		
+		function normani() { 
+			document.getElementById("normani").src = 'img/normanik.jpg';
+		}
+	
+		function kordei () {
+			document.getElementById("normani").src = 'img/normani.jpg';
+		}
+	
+	</script>
+	</head>
+	
+	<body>
+		<header>
+			<div id="menu">
+				<ul>
+					<li><a href="index.html" >Início</a></li>
+					<li><a href="discografia.html">Discografia</a></li>
+					<li><a href="integrantes.html">Integrantes</a></li>
+					<li><a href="redes.html">Redes Sociais</a></li>
+				</ul>
+			</div>
+		</header> 
+		
+	<br>
+	<center>
+		<ul style="display: flex; margin: 80px 0px; font-family: candara;">
+			<li style="list-style: none; top: 0; bottom: 0;"><img src="img/ally.jpg"/ width="240" height="210" id="ally"
+			onmouseover="ally(this);"/
+			onmouseout="brooke(this);"/ style="border: 5px solid darkcyan; margin: 0px 150px;">
+				<h3 style=" top: 0; bottom: 0; margin: 0px 0px;">Ally Brooke</h3>
+				<p style="margin: 0px;">07 de julho de 1993</p>
+				<p style="margin: 0px;">Nasceu em San Antonio, Texas</p>
+			</li>
+			
+			<li style="list-style: none;"><img src="img/dinah.jpg"/ width="240" height="210" id="dinah"
+			onmouseover="dinah(this);"/
+			onmouseout="jane(this);"/ style="border: 5px solid darkcyan; margin: 0px 150px;">
+				<h3 style="margin: 0px;">Dinah Jane</h3>
+				<p style="margin: 0px;">22 de junho de 1997</p>
+				<p style="margin: 0px;">Nasceu em Atlanta, Georgia</p>
+			</li>	
+		</ul>
+	</center>
+
+	<center>	
+		<ul style="display: flex; margin: 80px 0px; font-family: candara;">
+			<li style="list-style: none;"><img src="img/lauren.jpg"/ width="240" height="210" id="lauren"
+			onmouseover="lauren(this);"/
+			onmouseout="jauregui(this);"/ style="border: 5px solid darkcyan; margin: 0px 150px;">
+				<h3 style="margin: 0px;">Lauren Jauregui</h3>
+				<p style="margin: 0px;">27 de junho de 1996</p>
+				<p style="margin: 0px;">Nasceu em Miami, Florida</p>
+			</li>
+			
+			<li style="list-style: none;"><img src="img/normani.jpg"/ width="240" height="210" id="normani"
+			onmouseover="normani(this);"/
+			onmouseout="kordei(this);"/ style="border: 5px solid darkcyan; margin: 0px 150px;">
+				<h3 style="margin: 0px;">Normani</h3>
+				<p style="margin: 0px;">31 de maio de 1996</p>
+				<p style="margin: 0px;">Nasceu em Santa Ana, Califórnia</p>
+			</li>
+		</ul>
+	</center>
+	
+		<footer style="font-family: rockwell; background-color: #00ace6; padding: 5px; color: black; text-align: right;">
+			<h4>Página Integrantes</h4>
+		</footer>
+	</body>
+</html>
